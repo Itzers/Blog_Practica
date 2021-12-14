@@ -1,6 +1,9 @@
 body{
-    background-image: linear-gradient(beige, rgb(33, 28, 97));
+    background-image: linear-gradient(white, rgb(33, 28, 97));
     background-attachment: fixed;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Source Serif Pro', serif;
 }
 .logo{
     width: 40px;
@@ -11,50 +14,22 @@ body{
     transform: scale(0.5,2);
     transform: rotate(360deg);
 }
-.sobre{
-    width: 0;
-    height: 0;
-    border-top: 100px solid #eee;
-    border-right: 170px solid #ddd;
-    border-bottom: 100px solid #ccc;
-    border-left: 170px solid #ddd;
+.titulo{
+    font-size: 50px;
+    margin:50px 0;
+    color: rgb(33, 33, 94);
+    font-family: cursive;
+    text-align: center;
+}
+
+.fotos{
+    width: 50%;
     margin: auto;
-    margin-top: 10%;
 }
-.corazon{
-    width: 32px;
-    height: 32px;
-    background-color: tomato;
-    transform: translate(-50%,-50%) rotate(45deg);
-    animation: latido 1.4s linear infinite;
+.card-img-top{
+    width:100%
 }
-.corazon:before{
-    content: "";
-    position: absolute;
-    top:0;
-    left: 0;
+.card-img-top-a{
     width: 100%;
-    height: 100%;
-    background-color: tomato ;
-    transform: translateY(-50%);
-    border-radius: 50%;
-}
-.corazon:after{
-    content: "";
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: tomato ;
-    transform: translateX(-50%);
-    border-radius: 50%;
-}
-@keyframes latido{
-    0%{transform: translate(-50%, -50%) rotate(45deg) scale(1);}
-    25%{ transform: translate(-50%,-50%) rotate(45deg) scale(1);}
-    30%{ transform: translate(-50%,-50%) rotate(45deg) scale(1.4);}
-    50%{ transform: translate(-50%,-50%) rotate(45deg) scale(1.2);}
-    70%{ transform: translate(-50%,-50%) rotate(45deg) scale(1.4);}
-    100%{ transform: translate(-50%,-50%) rotate(45deg) scale(1);}
+    height: 340px;
 }
