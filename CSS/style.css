@@ -33,3 +33,15 @@ body{
     width: 100%;
     height: 340px;
 }
+/*Contacto*/
+
+.tituloContacto{
+    font-size: 70px;
+    margin:50px 0;
+    color: rgb(33, 33, 94);
+    font-family: cursive;
+}
+.form-control{
+    display: flex;
+    width: 50%;
+}
