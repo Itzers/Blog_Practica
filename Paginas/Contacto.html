@@ -44,16 +44,22 @@
 <!-- Title -->
     <div class="tituloContacto"><h1>Contacto</h1></div>
 <!-- Form -->
-        <div class="mb-3">
-            <div class="col-sm-8">
-            <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    <form action>
+        <div class="input-group">
+            <label class="contacto" for="userEmail">Email</label>
+            <input type="userEmail" type="email" value placeholder="name@example.com" required>
         </div>
-        <div class="mb-3">
-            <div class="col-sm-8">
-            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1"     rows="3"></textarea>
+        <br>
+        <div class="input-group">
+            <label class="contacto" for="userMessage">Mensaje</label>
+            <textarea id="userMessage" type="text" value placeholder="Mensaje" required></textarea>
         </div>
-        <button type="button" class="btn btn-outline-light">Enviar</button>
+        <br>
+        <div class="button"></div>
+        <button type="submit">Enviar</button>
+    </form>
 </body>
+<footer>
+    <div class="block__element"></div>
+</footer>
 </html>
